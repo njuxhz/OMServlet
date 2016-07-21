@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OMServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is Login Component</description>
+    <display-name>This is Login Component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.om.servlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is Show Component</description>
+    <display-name>This is Show Component</display-name>
+    <servlet-name>Show</servlet-name>
+    <servlet-class>com.om.servlet.Show</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Show</servlet-name>
+    <url-pattern>/show</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is Create Component</description>
+    <display-name>This is Create Component</display-name>
+    <servlet-name>Create</servlet-name>
+    <servlet-class>com.om.servlet.Create</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Create</servlet-name>
+    <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is Detail Component</description>
+    <display-name>This is Detail Component</display-name>
+    <servlet-name>Detail</servlet-name>
+    <servlet-class>com.om.servlet.Detail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Detail</servlet-name>
+    <url-pattern>/mydetail</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is Edit Component</description>
+    <display-name>This is Edit Component</display-name>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>com.om.servlet.Edit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+</web-app>
